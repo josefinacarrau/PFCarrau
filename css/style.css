@@ -5,7 +5,7 @@
   box-sizing: border-box; /* Hacer que el alto y ancho de la caja contemple los márgenes y el relleno */
 }
 
-header .logo img {
+header .logo {
   padding: 2px;
   height: 50px;
 }
@@ -16,6 +16,44 @@ header nav div ul li a:hover {
   text-decoration: underline; /* Subrayar */
   text-decoration-color: rgb(103, 195, 222); /* Color de la subrayado */
   text-decoration-thickness: 3px; /* Grosor de la subrayado */
+}
+
+.background-image {
+  height: 45vh; /* Fijar la altura de la imagen de fondo al 45% de la altura del viewport */
+  background-image: url("../img/fondo.webp");
+  background-size: cover; /* Hacer que la imagen de fondo cubra todo el espacio disponible */
+  background-position: center center; /* Centrar la imagen de fondo */
+  opacity: 1; /* Establecer la opacidad al 100% (sin transparencia) */
+  position: relative; /* Establecer la posición relativa para que los elementos secundarios se posicionen relativamente a esta div */
+  display: flex !important; /* Forzar la visualización como flex */
+  flex-direction: column; /* Establecer la dirección de la columna para los elementos secundarios flex */
+  flex-wrap: wrap; /* Permitir que los elementos flex envuelvan */
+  width: fit-content; /* Establecer el ancho de la caja según el tamaño del contenido */
+  opacity: 0.8; /* Establecer la opacidad al 80% (20% de transparencia) */
+}
+.background-image .text-box-h1 {
+  justify-content: center;
+  align-items: center; /* Centrar verticalmente el contenido */
+  align-self: center;
+}
+.background-image .text-box-h1 h1 {
+  font-size: 4rem;
+  background-color: rgb(103, 195, 222); /* Color de fondo con transparencia */
+  color: #fff;
+  font-family: "Playfair Display";
+  padding: 5px;
+  opacity: 0.8;
+}
+.background-image .text-box-h3 {
+  width: fit-content;
+}
+
+section div h2 {
+  font-size: 3rem;
+  font-family: "Playfair Display";
+  text-align: center;
+  color: rgb(103, 195, 222);
+  padding-top: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
