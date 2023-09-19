@@ -1,0 +1,32 @@
+section {
+  div {
+    .boxProgramas1 {
+      padding-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      .imgProgramas {
+        width: 100% !important;
+        padding: 10px;
+        align-content: center;
+      }
+    }
+  }
+  div {
+    .boxProgramas2 {
+      padding-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    h4 {
+      font-size: 1.7rem;
+      color: $colorBase;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}

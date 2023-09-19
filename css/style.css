@@ -6,6 +6,141 @@
   box-sizing: border-box; /* Hacer que el alto y ancho de la caja contemple los márgenes y el relleno */
 }
 
+/* Estilos responsivos para pantallas pequeñas (576px o menos) */
+@media (max-width: 576px) {
+  .background-image {
+    height: 30vh;
+  }
+  .background-image h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  h4 {
+    font-size: 1.1rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  .piePag {
+    font-size: 0.3rem;
+  }
+  .mapouter {
+    height: 200px;
+    width: 100%;
+  }
+  .gmap_canvas {
+    height: 200px;
+  }
+  .gmap_iframe {
+    height: 180px !important;
+  }
+  .boxContacto {
+    width: 95%;
+    margin: auto;
+  }
+  .boxProgramas1 {
+    align-items: center;
+    justify-content: center;
+  }
+  .boxProgramas2 {
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* Estilos responsivos para pantallas medianas (entre 577px y 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .background-image {
+    height: 40vh;
+  }
+  .background-image h1 {
+    font-size: 2.35rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.7rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .mapouter {
+    height: 220px;
+    width: 70%;
+  }
+  .gmap_canvas {
+    height: 220px;
+  }
+  .gmap_iframe {
+    height: 200px !important;
+  }
+  .boxProgramas1 {
+    align-items: center;
+    justify-content: center;
+  }
+  .boxProgramas2 {
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* Estilos responsivos para pantallas grandes (entre 769px y 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .background-image {
+    height: 45vh;
+  }
+  .background-image h1 {
+    font-size: 3.2rem; /* Tamaño de fuente para pantallas grandes */
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .text-box-h3 {
+    top: 64%;
+  }
+  .mapouter {
+    height: 270px;
+    width: 70%;
+  }
+  .gmap_canvas {
+    height: 270px;
+  }
+  .gmap_iframe {
+    height: 250px !important;
+  }
+}
+/* Estilos responsivos para pantallas mayores a 992px */
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: block !important;
+    flex-basis: content; /* Esto significa que el tamaño base de los elementos se ajustará automáticamente al contenido que contienen. */
+  }
+}
 header .logo {
   padding: 2px;
   height: 50px;
@@ -78,11 +213,6 @@ main section div .textoGris {
   margin-bottom: 0;
   text-align: center;
 }
-main section div h2 {
-  font-size: 3rem;
-  color: rgb(103, 195, 222);
-  padding-top: 5px;
-}
 main section div .lineaCeleste {
   border: 3px solid rgb(103, 195, 222);
   width: 10%;
@@ -115,6 +245,39 @@ main section div div .botonReserva .linkReserva:hover {
   border: 10px;
   color: rgba(0, 0, 0, 0);
   padding: 2px;
+}
+
+section div .imgNoticias {
+  height: 250px;
+  width: fit-content;
+  margin: auto;
+}
+
+section div .boxProgramas1 {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+section div .boxProgramas1 .imgProgramas {
+  width: 100% !important;
+  padding: 10px;
+  align-content: center;
+}
+section div .boxProgramas2 {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+section div h4 {
+  font-size: 1.7rem;
+  color: rgb(103, 195, 222);
+}
+section div p {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */
