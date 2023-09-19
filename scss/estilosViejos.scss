@@ -1,129 +1,7 @@
-// /* Resetear estilos predeterminados */
-// * {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: border-box; /* Hacer que el alto y ancho de la caja contemple los márgenes y el relleno */
-//   background-color: black;
-// }
-
-// /* Estilos para la barra de navegación colapsada */
-// .navbar-collapse {
-//   flex-grow: unset !important; /* Desactivar el crecimiento flexible de la barra de navegación. El!important es una regla de prioridad que indica que esta declaración de estilo debe aplicarse incluso si existen otras reglas que intentan cambiar la propiedad.*/
-// }
-
-// /* Estilos para el logo */
-// .logo {
-//   padding: 2px;
-//   height: 50px; /* Fijar la altura del logo*/
-// }
-
-// /* Estilos para los enlaces (links) en hover (al pasar el cursor sobre él) */
-// li a:hover {
-//   text-decoration: underline; /* Subrayar */
-//   text-decoration-color: deepskyblue; /* Color de la subrayado */
-//   text-decoration-thickness: 3px; /* Grosor de la subrayado */
-// }
-
-// /* Estilos para la imagen de fondo */
-// .background-image {
-//   height: 45vh; /* Fijar la altura de la imagen de fondo al 45% de la altura del viewport */
-//   background-image: url("../img/fondo.webp");
-//   background-size: cover; /* Hacer que la imagen de fondo cubra todo el espacio disponible */
-//   background-position: center center; /* Centrar la imagen de fondo */
-//   opacity: 1; /* Establecer la opacidad al 100% (sin transparencia) */
-//   position: relative; /* Establecer la posición relativa para que los elementos secundarios se posicionen relativamente a esta div */
-//   display: flex !important; /* Forzar la visualización como flex */
-//   flex-direction: column; /* Establecer la dirección de la columna para los elementos secundarios flex */
-//   align-content: center; /* Centrar el contenido verticalmente */
-//   flex-wrap: wrap; /* Permitir que los elementos flex envuelvan */
-//   align-self: center !important; /* Centrar el elemento flex en sí mismo */
-//   justify-content: center; /* Centrar horizontalmente el contenido */
-// }
-
-// /* Estilos para la caja de texto con h1 */
-// .text-box-h1 {
-//   display: flex !important;
-//   justify-content: center;
-//   align-items: center; /* Centrar verticalmente el contenido */
-//   align-self: center;
-//   width: fit-content; /* Establecer el ancho de la caja según el tamaño del contenido */
-//   opacity: 0.8; /* Establecer la opacidad al 80% (20% de transparencia) */
-// }
-
-// /* /* Estilos para la caja de texto con h3 */
-// .text-box-h3 {
-//   align-self: center;
-//   width: fit-content;
-// } */
-
-/* Estilos para h1 */
-h1 {
-  font-size: 4rem;
-  background-color: rgb(
-    103,
-    195,
-    222,
-    252
-  ); /* Color de fondo con transparencia */
-  color: #fff;
-  font-family: "Playfair Display";
-  padding: 5px;
-  text-align: center;
-  width: fit-content;
-}
-
-/* Estilos para h2 */
-h2 {
-  font-size: 3rem;
-  font-family: "Playfair Display";
-  text-align: center;
-  color: rgb(103, 195, 222);
-  padding-top: 5px;
-}
-
-h2::after {
-  content: ""; /* Crea un elemento pseudo ::after */
-  position: absolute;
-  left: 45%; /* Alinea la línea a la izquierda */
-  width: 10%; /* Establece el ancho de la línea al 33% del ancho del h2 */
-  height: 2.5px; /* Establece el grosor de la línea */
-  border-color: rgb(103, 195, 222); /* Define el color de la línea (celeste) */
-}
-
-/* Estilos para h3 */
-h3 {
-  font-size: 2.3rem;
-  background-color: rgb(255, 255, 255);
-  color: rgb(103, 195, 222);
-  font-family: "Playfair Display";
-  /* white-space: pre-wrap; */
-  padding: 5px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-h4 {
-  font-size: 1.7rem;
-  font-family: "Playfair Display";
-  padding: 5px;
-  justify-content: center;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 2px;
-}
-
 h5 {
   font-size: 1.4rem;
   font-family: "Playfair Display";
   padding: 3px;
-}
-
-/* Titulos, textos varios */
-.color {
-  color: rgb(103, 195, 222);
-}
-.estiloLetra {
-  font-family: "Playfair Display";
 }
 
 /* Estilos para el contenido */
@@ -132,25 +10,6 @@ h5 {
   text-align: justify; /* Centrar el texto horizontalmente */
 }
 
-/* Estilos para los parrafos */
-p {
-  text-align: justify;
-  text-justify: inter-word;
-  font-family: "Playfair Display";
-}
-
-/* Estilos para el pie de página */
-.footer {
-  font-size: 1rem;
-  background-color: rgba(7, 7, 7, 0);
-  text-align: center;
-}
-
-.imgProgramas {
-  width: 300px !important;
-  padding: 10px;
-  position: relative;
-}
 
 .botonVerMas {
   padding: 10px;
@@ -160,38 +19,8 @@ p {
   text-align: center !important;
 }
 
-.botonReserva {
-  padding: 10px;
-  text-decoration: none;
-  color: white;
-  width: fit-content;
-  background-color: rgb(103, 195, 222);
-  border-style: none;
-  align-items: center !important;
-}
-
-.botonReserva:hover {
-  padding: 10px;
-  text-decoration: none;
-  color: black;
-  width: fit-content;
-  background-color: rgb(103, 195, 222);
-  border-style: none;
-  align-items: center !important;
-}
-
-.linkReserva {
-  text-decoration: none;
-  color: white;
-}
-
-.textoGris {
-  color: gray;
-  margin-top: 3px;
-  margin-bottom: 0;
-}
 .lineaGris {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #929090ac;
 }
 
 /* Tabla de precios grilla */
