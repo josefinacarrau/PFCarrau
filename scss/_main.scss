@@ -1,32 +1,35 @@
 //Imagen fondo H1
-section {
-  .background-image {
-    height: 45vh;
-    background-image: url("../img/fondo.webp");
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    display: flex !important;
-    align-self: center !important;
-    div {
-      .text-box-h1 {
-        justify-content: center;
-        align-items: center;
-        width: fit-content;
-        opacity: 0.8;
-        color: $colorBase;
-        h1 {
-          font-size: 4rem;
-          color: #fff;
-          font-family: $estiloLetra;
-          pointer-events: 5px;
-          text-align: center;
-          width: fit-content;
-        }
-      }
+
+.background-image {
+  height: 45vh;
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  display: flex !important;
+  font-family: $estiloLetra;
+  flex-direction: column;
+  div {
+    h1 {
+      font-size: 4rem;
+      color: #fff;
+      font-family: $estiloLetra;
+      pointer-events: 5px;
+      text-align: center;
+      width: fit-content;
+      opacity: 0.8;
+      background-color: $colorBase;
     }
-    div {
+  }
+  div {
+    .text-box-h3 {
+      width: fit-content;
+      color: #fff;
       h3 {
+        color: $colorBase;
+        text-align: center;
+        padding-top: 5px;
+        font-size: 2.3rem;
       }
     }
   }
@@ -34,10 +37,10 @@ section {
 
 //Parte Central
 section {
+  font-family: $estiloLetra;
   div {
     h2 {
       font-size: 3rem;
-      font-family: $estiloLetra;
       text-align: center;
       color: $colorBase;
       padding-top: 5px;
