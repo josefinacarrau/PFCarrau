@@ -7,4 +7,11 @@
     color: rgba(0, 0, 0, 0);
     padding: 2px;
   }
+  section {
+    a {
+      i {
+        color: $colorBase;
+      }
+    }
+  }
 }
