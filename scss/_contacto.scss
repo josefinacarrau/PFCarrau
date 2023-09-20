@@ -1,0 +1,39 @@
+/* Estilos mapa Google pagina contacto*/
+.contacto {
+  .mapouter {
+    position: relative;
+    text-align: right;
+    width: 85%;
+    height: 350px;
+    margin: 0 auto;
+    .gmap_canvas {
+      overflow: hidden;
+      background: none !important;
+      width: 100%;
+      height: 400px;
+      .gmap_iframe {
+        height: 350px !important;
+      }
+    }
+  }
+}
+
+.boxContacto {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h3 {
+    font-size: 2.3rem;
+    background-color: rgb(255, 255, 255);
+    color: $colorBase;
+    padding: 5px;
+  }
+  .botonEnviar {
+    color: white;
+    background-color: $colorBase;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+}
