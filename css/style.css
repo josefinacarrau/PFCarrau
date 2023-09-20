@@ -326,6 +326,13 @@ main .index div div .botonReserva .linkReserva:hover {
   font-size: 1rem;
   border-radius: 5px;
 }
+.boxContacto .botonEnviar:hover {
+  color: black;
+  font-size: larger;
+  border: 3px solid rgb(103, 195, 222);
+  padding: 5px;
+  border-radius: 5px;
+}
 
 /* Estilos responsivos para pantallas pequeñas (576px o menos) */
 @media (max-width: 576px) {
