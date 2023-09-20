@@ -27,6 +27,8 @@ main .background-image {
   display: flex !important; /* Forzar la visualización como flex */
   flex-direction: column; /* Establecer la dirección de la columna para los elementos secundarios flex */
   justify-content: center; /* Centrar horizontalmente el contenido */
+  animation-duration: 3s;
+  animation-name: fadeIn;
 }
 main .background-image .text-box {
   align-self: center;
