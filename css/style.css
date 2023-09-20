@@ -253,30 +253,43 @@ section div .imgNoticias {
   margin: auto;
 }
 
-section div .boxProgramas1 {
+.programas .textoGris {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10px;
+  color: gray;
+  padding: 2px;
+}
+.programas .lineaCeleste {
+  border: 3px solid rgb(103, 195, 222);
+  width: 10%;
+  opacity: 1;
+  margin: 0 auto 15px auto;
+}
+.programas div div {
   padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.programas div div .boxProgramas1 {
   align-items: flex-end;
 }
-section div .boxProgramas1 .imgProgramas {
+.programas div div .boxProgramas1 .imgProgramas {
   width: 100% !important;
   padding: 10px;
+  padding-bottom: 10px;
   align-content: center;
 }
-section div .boxProgramas2 {
-  padding-top: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.programas div div .boxProgramas2 {
   align-items: flex-start;
+  align-content: center;
 }
-section div h4 {
+.programas div div h4 {
   font-size: 1.7rem;
   color: rgb(103, 195, 222);
 }
-section div p {
+.programas div div p {
   text-align: justify;
 }
 

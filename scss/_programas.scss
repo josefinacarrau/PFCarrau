@@ -1,32 +1,45 @@
-section {
-  div {
-    .boxProgramas1 {
-      padding-top: 10px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-end;
-      .imgProgramas {
-        width: 100% !important;
-        padding: 10px;
-        align-content: center;
-      }
-    }
+.programas {
+  .textoGris {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    color: gray;
+    padding: 2px;
+  }
+  .lineaCeleste {
+    border: 3px solid $colorBase;
+    width: 10%;
+    opacity: 1;
+    margin: 0 auto 15px auto;
   }
   div {
-    .boxProgramas2 {
+    div {
       padding-top: 10px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-start;
+      .boxProgramas1 {
+        align-items: flex-end;
+        .imgProgramas {
+          width: 100% !important;
+          padding: 10px;
+          padding-bottom: 10px;
+          align-content: center;
+        }
+      }
     }
-    h4 {
-      font-size: 1.7rem;
-      color: $colorBase;
-    }
-    p {
-      text-align: justify;
+    div {
+      .boxProgramas2 {
+        align-items: flex-start;
+        align-content: center;
+      }
+      h4 {
+        font-size: 1.7rem;
+        color: $colorBase;
+      }
+      p {
+        text-align: justify;
+      }
     }
   }
 }
