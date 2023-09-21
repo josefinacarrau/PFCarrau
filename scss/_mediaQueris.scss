@@ -58,91 +58,130 @@
   }
 }
 
-// /* Estilos responsivos para pantallas medianas (entre 577px y 768px) */
-// @media (min-width: 577px) and (max-width: 768px) {
-//   .background-image {
-//     height: 40vh;
-//     h1 {
-//       font-size: 2.35rem;
-//     }
-//   }
-//   h2 {
-//     font-size: 2rem;
-//   }
-//   h3 {
-//     font-size: 1.7rem;
-//   }
-//   h4 {
-//     font-size: 1.4rem;
-//   }
-//   h5 {
-//     font-size: 1rem;
-//   }
-//   p {
-//     font-size: 0.8rem;
-//   }
-//   .mapouter {
-//     height: 220px;
-//     width: 70%;
-//   }
-//   .gmap_canvas {
-//     height: 220px;
-//   }
-//   .gmap_iframe {
-//     height: 200px !important;
-//   }
-//   .boxProgramas1 {
-//     align-items: center;
-//     justify-content: center;
-//   }
-//   .boxProgramas2 {
-//     align-items: center;
-//     justify-content: center;
-//   }
-// }
+/* Estilos responsivos para pantallas medianas (entre 577px y 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  main {
+    .background-image {
+      height: 40vh !important;
+      .text-box {
+        h1 {
+          font-size: 2.35rem !important;
+        }
+        h3 {
+          font-size: 2rem !important;
+        }
+      }
+    }
+    .index {
+      div {
+        h2 {
+          font-size: 1.7rem !important;
+        }
+      }
+      div {
+        h4 {
+          font-size: 1.4rem !important;
+        }
+        p {
+          font-size: 1rem !important;
+        }
+      }
+    }
+  }
+  .contacto {
+    .mapouter {
+      height: 220px !important;
+      width: 80%;
+      .gmap_canvas {
+        height: 220px !important;
+        .gmap_iframe {
+          height: 200px !important;
+        }
+      }
+    }
+  }
+  .boxContacto {
+    .boxContacto {
+      width: 95%;
+      margin: auto;
+      h3 {
+        font-size: 1.1rem !important;
+      }
+    }
+  }
+  .tabla {
+    .Programa-1 {
+      SSS h5 {
+        font-size: 1rem !important;
+      }
+    }
+  }
+}
 
 // /* Estilos responsivos para pantallas grandes (entre 769px y 992px) */
-// @media (min-width: 769px) and (max-width: 992px) {
-//   .background-image {
-//     height: 45vh;
-//     h1 {
-//       font-size: 3.2rem; /* Tamaño de fuente para pantallas grandes */
-//     }
-//   }
-//   h2 {
-//     font-size: 2.5rem;
-//   }
-//   h3 {
-//     font-size: 2rem;
-//   }
-//   h4 {
-//     font-size: 1.5rem;
-//   }
-//   h5 {
-//     font-size: 1.2rem;
-//   }
-//   p {
-//     font-size: 1rem;
-//   }
-//   .text-box-h3 {
-//     top: 64%;
-//   }
-//   .mapouter {
-//     height: 270px;
-//     width: 70%;
-//   }
-//   .gmap_canvas {
-//     height: 270px;
-//   }
-//   .gmap_iframe {
-//     height: 250px !important;
-//   }
-// }
+@media (min-width: 769px) and (max-width: 992px) {
+  main {
+    .background-image {
+      height: 45vh !important;
+      .text-box {
+        h1 {
+          font-size: 3.2rem !important;
+        }
+        h3 {
+          font-size: 2.5rem !important;
+        }
+      }
+    }
+    .index {
+      div {
+        h2 {
+          font-size: 2rem !important;
+        }
+      }
+      div {
+        h4 {
+          font-size: 1.4rem !important;
+        }
+        p {
+          font-size: 1rem !important;
+        }
+      }
+    }
+  }
+  .contacto {
+    .mapouter {
+      height: 270px !important;
+      width: 64%;
+      .gmap_canvas {
+        height: 270px !important;
+        .gmap_iframe {
+          height: 250px !important;
+        }
+      }
+    }
+  }
+  .boxContacto {
+    .boxContacto {
+      width: 95%;
+      margin: auto;
+      h3 {
+        font-size: 1.1rem !important;
+      }
+    }
+  }
+  .tabla {
+    .Programa-1 {
+      SSS h5 {
+        font-size: 1rem !important;
+      }
+    }
+  }
+}
 
 // /* Estilos responsivos para pantallas mayores a 992px */
-// @media (min-width: 992px) {
-//   .navbar-expand-lg .navbar-collapse {
-//     display: block !important;
-//     flex-basis: content; /* Esto significa que el tamaño base de los elementos se ajustará automáticamente al contenido que contienen. */
-//   }
-// }
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: block !important;
+    flex-basis: content; /* Esto significa que el tamaño base de los elementos se ajustará automáticamente al contenido que contienen. */
+  }
+}
