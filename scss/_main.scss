@@ -10,16 +10,23 @@ main {
     justify-content: center; /* Centrar horizontalmente el contenido */
     animation-duration: 3s;
     animation-name: fadeIn;
+    // @media (max-width: 576px) {
+    //   height: 30vh !important;
+    // }
     .text-box {
       align-self: center;
       font-family: $estiloLetra;
       text-align: center;
+
       h1 {
         font-size: 4rem;
         color: #fff;
         background-color: $colorBase;
         opacity: 0.8; /* Establecer la opacidad al 80% (20% de transparencia) */
         padding: 5px;
+        // @media (max-width: 576px) {
+        //   font-size: 1.5rem !important;
+        // }
       }
       h3 {
         font-size: 2.3rem;
