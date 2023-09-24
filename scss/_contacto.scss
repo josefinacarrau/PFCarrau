@@ -16,31 +16,36 @@
       }
     }
   }
-}
-
-.boxContacto {
-  padding-top: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  h3 {
-    font-size: 2.3rem;
-    background-color: rgb(255, 255, 255);
-    color: $colorBase;
-    padding: 5px;
-  }
-  .botonEnviar {
-    color: white;
-    background-color: $colorBase;
-    padding: 10px;
-    font-size: 1rem;
-    border-radius: 5px;
-    &:hover {
-      color: black;
-      font-size: larger;
-      border: 3px solid $colorBase;
+  .boxContacto {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3 {
+      font-size: 2.3rem;
+      background-color: rgb(255, 255, 255);
+      color: $colorBase;
       padding: 5px;
+    }
+    .botonEnviar {
+      color: white;
+      background-color: $colorBase;
+      padding: 10px;
+      font-size: 1rem;
       border-radius: 5px;
+      &:hover {
+        color: black;
+        font-size: larger;
+        border: 3px solid $colorBase;
+        padding: 5px;
+        border-radius: 5px;
+      }
+    }
+    .pContacto {
+      text-align: center;
+    }
+    .pregFrec {
+      text-align: justify;
     }
   }
 }

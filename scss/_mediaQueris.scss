@@ -48,14 +48,14 @@
     }
     .pContacto {
       text-align: center !important;
+      padding-left: 25px;
+      padding-right: 25px;
     }
   }
 
   .tabla {
-    .Programa-1 {
-      h5 {
-        font-size: 1rem !important;
-      }
+    h5 {
+      font-size: 1rem !important;
     }
   }
 }
@@ -101,10 +101,13 @@
         }
       }
     }
+    .pContacto {
+      text-align: center !important;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
   }
   .boxContacto {
-    // width: 95%;
-    // margin: auto;
     h3 {
       font-size: 1.1rem !important;
     }
@@ -159,10 +162,13 @@
         }
       }
     }
+    .pContacto {
+      text-align: center !important;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
   }
   .boxContacto {
-    // width: 95%;
-    // margin: auto;
     h3 {
       font-size: 1.1rem !important;
     }

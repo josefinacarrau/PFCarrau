@@ -26,6 +26,13 @@
   main .index div p {
     font-size: 0.9rem !important;
   }
+  main .index .boxContacto {
+    width: 95%;
+    margin: auto;
+  }
+  main .index .boxContacto h3 {
+    font-size: 1.1rem !important;
+  }
   .contacto .mapouter {
     height: 200px !important;
     width: 100%;
@@ -36,15 +43,102 @@
   .contacto .mapouter .gmap_canvas .gmap_iframe {
     height: 180px !important;
   }
-  .boxContacto .boxContacto {
-    width: 95%;
-    margin: auto;
+  .contacto .pContacto {
+    text-align: center !important;
+    padding-left: 25px;
+    padding-right: 25px;
   }
-  .boxContacto .boxContacto h3 {
+  .tabla h5 {
+    font-size: 1rem !important;
+  }
+}
+/* Estilos responsivos para pantallas medianas (entre 577px y 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  main .background-image {
+    height: 40vh !important;
+  }
+  main .background-image .text-box h1 {
+    font-size: 2.35rem !important;
+  }
+  main .background-image .text-box h3 {
+    font-size: 2rem !important;
+  }
+  main .index div h2 {
+    font-size: 1.7rem !important;
+  }
+  main .index div h4 {
+    font-size: 1.4rem !important;
+  }
+  main .index div p {
+    font-size: 1rem !important;
+  }
+  .contacto .mapouter {
+    height: 220px !important;
+    width: 80%;
+  }
+  .contacto .mapouter .gmap_canvas {
+    height: 220px !important;
+  }
+  .contacto .mapouter .gmap_canvas .gmap_iframe {
+    height: 200px !important;
+  }
+  .contacto .pContacto {
+    text-align: center !important;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .boxContacto h3 {
     font-size: 1.1rem !important;
   }
-  .tabla .Programa-1 SSS h5 {
+  .tabla .Programa-1 h5 {
     font-size: 1rem !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  main .background-image {
+    height: 45vh !important;
+  }
+  main .background-image .text-box h1 {
+    font-size: 3.2rem !important;
+  }
+  main .background-image .text-box h3 {
+    font-size: 2.5rem !important;
+  }
+  main .index div h2 {
+    font-size: 2rem !important;
+  }
+  main .index div h4 {
+    font-size: 1.4rem !important;
+  }
+  main .index div p {
+    font-size: 1rem !important;
+  }
+  .contacto .mapouter {
+    height: 270px !important;
+    width: 64%;
+  }
+  .contacto .mapouter .gmap_canvas {
+    height: 270px !important;
+  }
+  .contacto .mapouter .gmap_canvas .gmap_iframe {
+    height: 250px !important;
+  }
+  .contacto .pContacto {
+    text-align: center !important;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .boxContacto h3 {
+    font-size: 1.1rem !important;
+  }
+  .tabla .Programa-1 h5 {
+    font-size: 1rem !important;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: block !important;
+    flex-basis: content; /* Esto significa que el tamaño base de los elementos se ajustará automáticamente al contenido que contienen. */
   }
 }
 header .logo {
@@ -111,7 +205,7 @@ main .index div h4 {
   text-align: center;
   margin-bottom: 2px;
 }
-main .index div p {
+main .index div .pMain {
   text-align: justify;
   text-justify: inter-word;
 }
@@ -168,8 +262,8 @@ main .index div div .botonReserva .linkReserva:hover {
   font-family: "Playfair Display";
 }
 .programas .textoGris {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 10px;
   color: gray;
   padding: 2px;
@@ -218,7 +312,6 @@ main .index div div .botonReserva .linkReserva:hover {
   justify-items: stretch;
   align-items: center;
   grid-template-areas: "Titulo Titulo" "Programa-1 Precio-1" "Programa-2 Precio-2" "Programa-3 Precio-3" "Titulo-2 Titulo-2" "Programa-4 Precio-4" "Programa-5 Precio-5" "Programa-6 Precio-6" "Titulo-3 Titulo-3" "Programa-7 Precio-7" "Programa-8 Precio-8" "Titulo-4 Titulo-4" "Programa-9 Precio-9" "Programa-10 Precio-10";
-  width: 95%;
   margin: 0 auto;
 }
 .tabla .Titulo {
@@ -235,21 +328,21 @@ main .index div div .botonReserva .linkReserva:hover {
   grid-area: Programa-1;
 }
 .tabla .Precio-1 {
-  justify-self: end;
+  justify-self: center;
   grid-area: Precio-1;
 }
 .tabla .Programa-2 {
   grid-area: Programa-2;
 }
 .tabla .Precio-2 {
-  justify-self: end;
+  justify-self: center;
   grid-area: Precio-2;
 }
 .tabla .Programa-3 {
   grid-area: Programa-3;
 }
 .tabla .Precio-3 {
-  justify-self: end;
+  justify-self: center;
   grid-area: Precio-3;
 }
 .tabla .Titulo-2 {
@@ -266,21 +359,21 @@ main .index div div .botonReserva .linkReserva:hover {
   grid-area: Programa-4;
 }
 .tabla .Precio-4 {
-  justify-self: end;
+  justify-self: center;
   grid-area: Precio-4;
 }
 .tabla .Programa-5 {
   grid-area: Programa-5;
 }
 .tabla .Precio-5 {
-  justify-self: end;
+  justify-self: center;
   grid-area: Precio-5;
 }
 .tabla .Programa-6 {
   grid-area: Programa-6;
 }
 .tabla .Precio-6 {
-  justify-self: end;
+  justify-self: center;
   grid-area: Precio-6;
 }
 .tabla .Titulo-3 {
@@ -297,14 +390,14 @@ main .index div div .botonReserva .linkReserva:hover {
   grid-area: Programa-7;
 }
 .tabla .Precio-7 {
-  justify-self: end;
+  justify-self: center;
   grid-area: Precio-7;
 }
 .tabla .Programa-8 {
   grid-area: Programa-8;
 }
 .tabla .Precio-8 {
-  justify-self: end;
+  justify-self: center;
   grid-area: Precio-8;
 }
 .tabla .Titulo-4 {
@@ -321,15 +414,18 @@ main .index div div .botonReserva .linkReserva:hover {
   grid-area: Programa-9;
 }
 .tabla .Precio-9 {
-  justify-self: end;
+  justify-self: center;
   grid-area: Precio-9;
 }
 .tabla .Programa-10 {
   grid-area: Programa-10;
 }
 .tabla .Precio-10 {
-  justify-self: end;
+  justify-self: center;
   grid-area: Precio-10;
+}
+.tabla div .pPrecio {
+  text-align: center !important;
 }
 
 /* Estilos mapa Google pagina contacto*/
@@ -349,32 +445,37 @@ main .index div div .botonReserva .linkReserva:hover {
 .contacto .mapouter .gmap_canvas .gmap_iframe {
   height: 350px !important;
 }
-
-.boxContacto {
+.contacto .boxContacto {
   padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.boxContacto h3 {
+.contacto .boxContacto h3 {
   font-size: 2.3rem;
   background-color: rgb(255, 255, 255);
   color: rgb(103, 195, 222);
   padding: 5px;
 }
-.boxContacto .botonEnviar {
+.contacto .boxContacto .botonEnviar {
   color: white;
   background-color: rgb(103, 195, 222);
   padding: 10px;
   font-size: 1rem;
   border-radius: 5px;
 }
-.boxContacto .botonEnviar:hover {
+.contacto .boxContacto .botonEnviar:hover {
   color: black;
   font-size: larger;
   border: 3px solid rgb(103, 195, 222);
   padding: 5px;
   border-radius: 5px;
+}
+.contacto .boxContacto .pContacto {
+  text-align: center;
+}
+.contacto .boxContacto .pregFrec {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */

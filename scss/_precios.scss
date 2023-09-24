@@ -23,7 +23,6 @@
     "Titulo-4 Titulo-4"
     "Programa-9 Precio-9"
     "Programa-10 Precio-10";
-  width: 95%;
   margin: 0 auto;
   .Titulo {
     justify-self: stretch;
@@ -39,21 +38,21 @@
     grid-area: Programa-1;
   }
   .Precio-1 {
-    justify-self: end;
+    justify-self: center;
     grid-area: Precio-1;
   }
   .Programa-2 {
     grid-area: Programa-2;
   }
   .Precio-2 {
-    justify-self: end;
+    justify-self: center;
     grid-area: Precio-2;
   }
   .Programa-3 {
     grid-area: Programa-3;
   }
   .Precio-3 {
-    justify-self: end;
+    justify-self: center;
     grid-area: Precio-3;
   }
   .Titulo-2 {
@@ -70,21 +69,21 @@
     grid-area: Programa-4;
   }
   .Precio-4 {
-    justify-self: end;
+    justify-self: center;
     grid-area: Precio-4;
   }
   .Programa-5 {
     grid-area: Programa-5;
   }
   .Precio-5 {
-    justify-self: end;
+    justify-self: center;
     grid-area: Precio-5;
   }
   .Programa-6 {
     grid-area: Programa-6;
   }
   .Precio-6 {
-    justify-self: end;
+    justify-self: center;
     grid-area: Precio-6;
   }
   .Titulo-3 {
@@ -101,14 +100,14 @@
     grid-area: Programa-7;
   }
   .Precio-7 {
-    justify-self: end;
+    justify-self: center;
     grid-area: Precio-7;
   }
   .Programa-8 {
     grid-area: Programa-8;
   }
   .Precio-8 {
-    justify-self: end;
+    justify-self: center;
     grid-area: Precio-8;
   }
   .Titulo-4 {
@@ -126,7 +125,7 @@
   }
 
   .Precio-9 {
-    justify-self: end;
+    justify-self: center;
     grid-area: Precio-9;
   }
 
@@ -135,7 +134,7 @@
   }
 
   .Precio-10 {
-    justify-self: end;
+    justify-self: center;
     grid-area: Precio-10;
   }
   div {
