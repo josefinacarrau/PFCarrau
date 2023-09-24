@@ -138,4 +138,9 @@
     justify-self: end;
     grid-area: Precio-10;
   }
+  div {
+    .pPrecio {
+      text-align: center !important;
+    }
+  }
 }
