@@ -16,6 +16,9 @@
       }
     }
   }
+}
+
+div {
   .boxContacto {
     padding-top: 10px;
     display: flex;
@@ -47,14 +50,10 @@
     .pregFrec {
       text-align: justify;
     }
-  }
-}
-div{
-  .boxContacto{
-    h3{
+    h3 {
       color: $colorBase;
     }
-    .pregFrec{
+    .pregFrec {
       text-align: justify;
     }
   }

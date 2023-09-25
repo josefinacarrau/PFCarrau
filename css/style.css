@@ -479,39 +479,39 @@ main .index div div .botonReserva .linkReserva:hover {
 .contacto .mapouter .gmap_canvas .gmap_iframe {
   height: 350px !important;
 }
-.contacto .boxContacto {
+
+div .boxContacto {
   padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.contacto .boxContacto h3 {
+div .boxContacto h3 {
   font-size: 2.3rem;
   background-color: rgb(255, 255, 255);
   color: rgb(103, 195, 222);
   padding: 5px;
 }
-.contacto .boxContacto .botonEnviar {
+div .boxContacto .botonEnviar {
   color: white;
   background-color: rgb(103, 195, 222);
   padding: 10px;
   font-size: 1rem;
   border-radius: 5px;
 }
-.contacto .boxContacto .botonEnviar:hover {
+div .boxContacto .botonEnviar:hover {
   color: black;
   font-size: larger;
   border: 3px solid rgb(103, 195, 222);
   padding: 5px;
   border-radius: 5px;
 }
-.contacto .boxContacto .pContacto {
+div .boxContacto .pContacto {
   text-align: center;
 }
-.contacto .boxContacto .pregFrec {
+div .boxContacto .pregFrec {
   text-align: justify;
 }
-
 div .boxContacto h3 {
   color: rgb(103, 195, 222);
 }
