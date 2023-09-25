@@ -51,6 +51,18 @@
   .tabla h5 {
     font-size: 1rem !important;
   }
+  .programas {
+    text-align: center;
+  }
+  .programas h4 {
+    font-size: 1rem;
+  }
+  .boxContacto h3 {
+    font-size: 1.3rem !important;
+  }
+  .boxContacto h5 {
+    font-size: 1rem;
+  }
 }
 /* Estilos responsivos para pantallas medianas (entre 577px y 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
@@ -61,7 +73,7 @@
     font-size: 2.35rem !important;
   }
   main .background-image .text-box h3 {
-    font-size: 2rem !important;
+    font-size: 1.8rem !important;
   }
   main .index div h2 {
     font-size: 1.7rem !important;
@@ -88,10 +100,19 @@
     padding-right: 25px;
   }
   .boxContacto h3 {
+    font-size: 1.4rem !important;
+  }
+  .boxContacto h5 {
     font-size: 1.1rem !important;
   }
   .tabla .Programa-1 h5 {
     font-size: 1rem !important;
+  }
+  .programas {
+    text-align: center;
+  }
+  .programas h4 {
+    font-size: 1.1rem;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
@@ -102,7 +123,7 @@
     font-size: 3.2rem !important;
   }
   main .background-image .text-box h3 {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
   }
   main .index div h2 {
     font-size: 2rem !important;
@@ -129,10 +150,19 @@
     padding-right: 25px;
   }
   .boxContacto h3 {
-    font-size: 1.1rem !important;
+    font-size: 1.6rem !important;
+  }
+  .boxContacto h5 {
+    font-size: 1.2rem;
   }
   .tabla .Programa-1 h5 {
     font-size: 1rem !important;
+  }
+  .programas {
+    text-align: center;
+  }
+  .programas h4 {
+    font-size: 1.3rem;
   }
 }
 @media (min-width: 992px) {
@@ -252,6 +282,10 @@ main .index div div .botonReserva .linkReserva:hover {
   color: rgb(103, 195, 222);
 }
 
+.seleccionados {
+  font-family: "Playfair Display";
+  text-align: justify;
+}
 .seleccionados div .imgNoticias {
   height: 250px;
   width: fit-content;
@@ -475,6 +509,13 @@ main .index div div .botonReserva .linkReserva:hover {
   text-align: center;
 }
 .contacto .boxContacto .pregFrec {
+  text-align: justify;
+}
+
+div .boxContacto h3 {
+  color: rgb(103, 195, 222);
+}
+div .boxContacto .pregFrec {
   text-align: justify;
 }
 

@@ -1,9 +1,11 @@
-.seleccionados{
-    div{
-        .imgNoticias{
-            height: 250px;
-            width: fit-content;
-            margin: auto;
-        }
+.seleccionados {
+  font-family: $estiloLetra;
+  text-align: justify;
+  div {
+    .imgNoticias {
+      height: 250px;
+      width: fit-content;
+      margin: auto;
     }
+  }
 }
