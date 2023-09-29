@@ -206,7 +206,7 @@ main .background-image .text-box h1 {
   opacity: 0.8; /* Establecer la opacidad al 80% (20% de transparencia) */
   padding: 5px;
 }
-main .background-image .text-box h3 {
+main .background-image .text-box h2 {
   font-size: 2.3rem;
   background-color: rgb(255, 255, 255);
   color: rgb(103, 195, 222);
@@ -216,7 +216,7 @@ main .index {
   text-align: center;
   font-family: "Playfair Display";
 }
-main .index div h2 {
+main .index div h3 {
   font-size: 3rem;
   color: rgb(103, 195, 222);
   padding-top: 5px;
