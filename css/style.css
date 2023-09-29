@@ -13,23 +13,23 @@
   main .background-image .text-box h1 {
     font-size: 1.5rem !important;
   }
-  main .background-image .text-box h3 {
+  main .background-image .text-box h2 {
     font-size: 1.1rem !important;
   }
-  main .index div h3 {
+  main section h3 {
     font-size: 1.3rem !important;
   }
-  main .index div h4 {
+  main div h4 {
     font-size: 1.1rem !important;
   }
-  main .index div p {
+  main div p {
     font-size: 0.9rem !important;
   }
-  main .index .boxContacto {
+  .boxContacto {
     width: 95%;
     margin: auto;
   }
-  main .index .boxContacto h3 {
+  .boxContacto h3 {
     font-size: 1.1rem !important;
   }
   .contacto .mapouter {
@@ -56,11 +56,17 @@
   .programas h4 {
     font-size: 1rem;
   }
+  .programas h5 {
+    font-size: 0.9rem;
+  }
   .boxContacto h3 {
     font-size: 1.3rem !important;
   }
   .boxContacto h5 {
     font-size: 1rem;
+  }
+  .seleccionados h5 {
+    font-size: 1rem !important;
   }
 }
 /* Estilos responsivos para pantallas medianas (entre 577px y 768px) */
@@ -71,10 +77,10 @@
   main .background-image .text-box h1 {
     font-size: 2.35rem !important;
   }
-  main .background-image .text-box h3 {
+  main .background-image .text-box h2 {
     font-size: 1.8rem !important;
   }
-  main .index div h2 {
+  main .index div h3 {
     font-size: 1.7rem !important;
   }
   main .index div h4 {
@@ -121,10 +127,10 @@
   main .background-image .text-box h1 {
     font-size: 3.2rem !important;
   }
-  main .background-image .text-box h3 {
+  main .background-image .text-box h2 {
     font-size: 2rem !important;
   }
-  main .index div h2 {
+  main .index div h3 {
     font-size: 2rem !important;
   }
   main .index div h4 {
