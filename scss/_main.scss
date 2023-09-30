@@ -5,9 +5,7 @@ main {
     background-image: url("../img/fondo.jpg");
     background-size: cover; /* Hacer que la imagen de fondo cubra todo el espacio disponible */
     background-position: center center; /* Centrar la imagen de fondo */
-    display: flex !important; /* Forzar la visualización como flex */
-    flex-direction: column; /* Establecer la dirección de la columna para los elementos secundarios flex */
-    justify-content: center; /* Centrar horizontalmente el contenido */
+    @include flex-col-center;
     animation-duration: 3s;
     animation-name: fadeIn;
     .text-box {
@@ -42,7 +40,7 @@ main {
     }
     div {
       img {
-        .imgProgramas {
+        .imgMain {
           padding: 10px;
           position: relative;
         }

@@ -25,8 +25,7 @@
     "Programa-10 Precio-10";
   margin: 0 auto;
   .Titulo {
-    justify-self: stretch;
-    align-self: center;
+    @include strech-center;
     grid-area: Titulo;
     border-bottom: 1px solid #ddd; /* Línea gris claro */
     margin-bottom: 0 !important;
@@ -56,8 +55,7 @@
     grid-area: Precio-3;
   }
   .Titulo-2 {
-    justify-self: stretch;
-    align-self: center;
+    @include strech-center;
     grid-area: Titulo-2;
     border-bottom: 1px solid #ddd; /* Línea gris claro */
     margin-bottom: 0 !important;
@@ -87,8 +85,7 @@
     grid-area: Precio-6;
   }
   .Titulo-3 {
-    justify-self: stretch;
-    align-self: center;
+    @include strech-center;
     grid-area: Titulo-3;
     border-bottom: 1px solid #ddd; /* Línea gris claro */
     margin-bottom: 0 !important;
@@ -111,8 +108,7 @@
     grid-area: Precio-8;
   }
   .Titulo-4 {
-    justify-self: stretch;
-    align-self: center;
+    @include strech-center;
     grid-area: Titulo-4;
     border-bottom: 1px solid #ddd; /* Línea gris claro */
     margin-bottom: 0 !important;

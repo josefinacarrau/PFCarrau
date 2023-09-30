@@ -16,9 +16,7 @@
   div {
     div {
       padding-top: 10px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+ @include flex-col-center;
       .boxProgramas1 {
         align-items: flex-end;
         .imgProgramas {

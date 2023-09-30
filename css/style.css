@@ -16,6 +16,9 @@
   main .background-image .text-box h2 {
     font-size: 1.1rem !important;
   }
+  main .index div div .imgMain {
+    width: 80%;
+  }
   main section h3 {
     font-size: 1.3rem !important;
   }
@@ -82,6 +85,9 @@
   }
   main .index div h3 {
     font-size: 1.7rem !important;
+  }
+  main .index div div .imgMain {
+    width: 80%;
   }
   main .index div h4 {
     font-size: 1.4rem !important;
@@ -194,9 +200,9 @@ main .background-image {
   background-image: url("../img/fondo.jpg");
   background-size: cover; /* Hacer que la imagen de fondo cubra todo el espacio disponible */
   background-position: center center; /* Centrar la imagen de fondo */
-  display: flex !important; /* Forzar la visualización como flex */
-  flex-direction: column; /* Establecer la dirección de la columna para los elementos secundarios flex */
-  justify-content: center; /* Centrar horizontalmente el contenido */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   animation-duration: 3s;
   animation-name: fadeIn;
 }
@@ -228,7 +234,7 @@ main .index div h3 {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-main .index div img .imgProgramas {
+main .index div img .imgMain {
   padding: 10px;
   position: relative;
 }
@@ -292,8 +298,8 @@ main .index div div .botonReserva .linkReserva:hover {
   text-align: justify;
 }
 .seleccionados div .imgNoticias {
-  height: 250px;
-  width: fit-content;
+  height: fit-content;
+  width: 250px;
   margin: auto;
 }
 

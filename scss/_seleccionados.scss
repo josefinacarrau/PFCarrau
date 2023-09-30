@@ -3,8 +3,7 @@
   text-align: justify;
   div {
     .imgNoticias {
-      height: 250px;
-      width: fit-content;
+      @include sizes(250px,fit-content);
       margin: auto;
     }
   }
