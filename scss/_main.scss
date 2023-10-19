@@ -67,9 +67,8 @@ main {
     div {
       .textoGris {
         color: gray;
-        margin-top: 3px;
-        margin-bottom: 0;
         text-align: center;
+        margin: 3px auto 0 auto;
       }
       .lineaCeleste {
         border: 3px solid $colorBase;

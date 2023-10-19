@@ -267,9 +267,8 @@ main .index div .pMain .italic {
 }
 main .index div .textoGris {
   color: gray;
-  margin-top: 3px;
-  margin-bottom: 0;
   text-align: center;
+  margin: 3px auto 0 auto;
 }
 main .index div .lineaCeleste {
   border: 3px solid rgb(103, 195, 222);
