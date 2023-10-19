@@ -12,7 +12,7 @@ main {
       align-self: center;
       font-family: $estiloLetra;
       text-align: center;
-      h1 {
+      .h1Index {
         font-size: 4rem;
         color: #fff;
         background-color: $colorBase;
@@ -31,7 +31,7 @@ main {
     text-align: center;
     font-family: $estiloLetra;
     div {
-      h3 {
+      .h3Index {
         font-size: 3rem;
         color: $colorBase;
         padding-top: 5px;
@@ -45,7 +45,7 @@ main {
           position: relative;
         }
       }
-      h4 {
+      .h4Index {
         font-size: 1.7rem;
         padding: 5px;
         justify-content: center;
@@ -56,6 +56,12 @@ main {
       .pMain {
         text-align: justify;
         text-justify: inter-word;
+        .Bold{
+          font-weight: bold;
+        }
+        .italic{
+          font-style: italic;
+        }
       }
     }
     div {
