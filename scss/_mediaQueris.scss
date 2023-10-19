@@ -5,10 +5,10 @@
       height: 30vh;
       .text-box {
         .h1Index {
-          font-size: 1.5rem;
+          font-size: 1.5rem !important;
         }
         h2 {
-          font-size: 1.1rem;
+          font-size: 1.1rem !important;
         }
       }
     }
@@ -19,19 +19,22 @@
             width: 80%;
           }
         }
+        .h2Color{
+          font-size: 1.2rem !important;
+        }
       }
     }
     section {
       h3 {
-        font-size: 1.3rem ;
+        font-size: 1.3rem !important;
       }
     }
     div {
       h4 {
-        font-size: 1.1rem;
+        font-size: 1.1rem !important; 
       }
       p {
-        font-size: 0.9rem;
+        font-size: 0.9rem !important;
       }
     }
   }
@@ -39,7 +42,7 @@
     width: 95%;
     margin: auto;
     h3 {
-      font-size: 1.1rem;
+      font-size: 1.1rem !important;
     }
   }
   .contacto {
@@ -61,29 +64,29 @@
   }
   .tabla {
     h5 {
-      font-size: 1rem;
+      font-size: 1rem !important;
     }
   }
   .programas {
     text-align: center;
     h4 {
-      font-size: 1rem;
+      font-size: 1rem !important;
     }
     h5 {
-      font-size: 0.9rem;
+      font-size: 0.9rem !important;
     }
   }
   .boxContacto {
     h3 {
-      font-size: 1.3rem;
+      font-size: 1.3rem !important;
     }
-    h5 {
-      font-size: 1rem;
+    h4 {
+      font-size: 1rem !important;
     }
   }
   .seleccionados {
-    h5 {
-      font-size: 1rem;
+    h4 {
+      font-size: 1rem !important;
     }
   }
 }
@@ -95,30 +98,33 @@
       height: 40vh;
       .text-box {
         h1 {
-          font-size: 2.35rem;
+          font-size: 2.35rem !important;
         }
         h2 {
-          font-size: 1.8rem;
+          font-size: 1.8rem !important;
         }
       }
     }
     .index {
       div {
         h3 {
-          font-size: 1.7rem;
+          font-size: 1.7rem !important;
         }
         div{
           .imgMain{
             width: 80%;
           }
         }
+        .h2Color{
+          font-size: 1.8rem !important;
+        }
       }
       div {
         h4 {
-          font-size: 1.4rem;
+          font-size: 1.4rem !important;
         }
         p {
-          font-size: 1rem;
+          font-size: 1rem !important;
         }
       }
     }
@@ -142,23 +148,23 @@
   }
   .boxContacto {
     h3 {
-      font-size: 1.4rem;
+      font-size: 1.4rem !important;
     }
-    h5 {
-      font-size: 1.1rem;
+    h4 {
+      font-size: 1.1rem !important;
     }
   }
   .tabla {
     .Programa-1 {
       h5 {
-        font-size: 1rem;
+        font-size: 1rem !important;
       }
     }
   }
   .programas {
     text-align: center;
     h4 {
-      font-size: 1.1rem;
+      font-size: 1.1rem !important;
     }
   }
 }
@@ -170,25 +176,28 @@
       height: 45vh;
       .text-box {
         h1 {
-          font-size: 3.2rem;
+          font-size: 3.2rem !important;
         }
         h2 {
-          font-size: 2rem;
+          font-size: 2rem !important;
         }
       }
     }
     .index {
       div {
         h3 {
-          font-size: 2rem;
+          font-size: 2rem !important;
         }
       }
       div {
         h4 {
-          font-size: 1.4rem;
+          font-size: 1.4rem !important;
         }
         p {
-          font-size: 1rem;
+          font-size: 1rem !important;
+        }
+        .h2Color{
+          font-size: 2rem !important;
         }
       }
     }
@@ -211,24 +220,24 @@
     }
   }
   .boxContacto {
-    h3 {
-      font-size: 1.6rem;
+    h3{
+      font-size: 1.6rem !important;
     }
-    h5 {
-      font-size: 1.2rem;
+    h4 {
+      font-size: 1.2rem !important;
     }
   }
   .tabla {
     .Programa-1 {
       h5 {
-        font-size: 1rem;
+        font-size: 1rem !important;
       }
     }
   }
   .programas {
     text-align: center;
     h4 {
-      font-size: 1.3rem;
+      font-size: 1.3rem !important;
     }
   }
 }

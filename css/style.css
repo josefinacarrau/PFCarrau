@@ -11,29 +11,32 @@
     height: 30vh;
   }
   main .background-image .text-box .h1Index {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
   main .background-image .text-box h2 {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
   }
   main .index div div .imgMain {
     width: 80%;
   }
+  main .index div .h2Color {
+    font-size: 1.2rem !important;
+  }
   main section h3 {
-    font-size: 1.3rem;
+    font-size: 1.3rem !important;
   }
   main div h4 {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
   }
   main div p {
-    font-size: 0.9rem;
+    font-size: 0.9rem !important;
   }
   .boxContacto {
     width: 95%;
     margin: auto;
   }
   .boxContacto h3 {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
   }
   .contacto .mapouter {
     height: 200px;
@@ -51,25 +54,25 @@
     padding-right: 25px;
   }
   .tabla h5 {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
   .programas {
     text-align: center;
   }
   .programas h4 {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
   .programas h5 {
-    font-size: 0.9rem;
+    font-size: 0.9rem !important;
   }
   .boxContacto h3 {
-    font-size: 1.3rem;
+    font-size: 1.3rem !important;
   }
-  .boxContacto h5 {
-    font-size: 1rem;
+  .boxContacto h4 {
+    font-size: 1rem !important;
   }
-  .seleccionados h5 {
-    font-size: 1rem;
+  .seleccionados h4 {
+    font-size: 1rem !important;
   }
 }
 /* Estilos responsivos para pantallas medianas (entre 577px y 768px) */
@@ -78,22 +81,25 @@
     height: 40vh;
   }
   main .background-image .text-box h1 {
-    font-size: 2.35rem;
+    font-size: 2.35rem !important;
   }
   main .background-image .text-box h2 {
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
   }
   main .index div h3 {
-    font-size: 1.7rem;
+    font-size: 1.7rem !important;
   }
   main .index div div .imgMain {
     width: 80%;
   }
+  main .index div .h2Color {
+    font-size: 1.8rem !important;
+  }
   main .index div h4 {
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
   }
   main .index div p {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
   .contacto .mapouter {
     height: 220px;
@@ -111,19 +117,19 @@
     padding-right: 25px;
   }
   .boxContacto h3 {
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
   }
-  .boxContacto h5 {
-    font-size: 1.1rem;
+  .boxContacto h4 {
+    font-size: 1.1rem !important;
   }
   .tabla .Programa-1 h5 {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
   .programas {
     text-align: center;
   }
   .programas h4 {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
@@ -131,19 +137,22 @@
     height: 45vh;
   }
   main .background-image .text-box h1 {
-    font-size: 3.2rem;
+    font-size: 3.2rem !important;
   }
   main .background-image .text-box h2 {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
   main .index div h3 {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
   main .index div h4 {
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
   }
   main .index div p {
-    font-size: 1rem;
+    font-size: 1rem !important;
+  }
+  main .index div .h2Color {
+    font-size: 2rem !important;
   }
   .contacto .mapouter {
     height: 270px;
@@ -161,19 +170,19 @@
     padding-right: 25px;
   }
   .boxContacto h3 {
-    font-size: 1.6rem;
+    font-size: 1.6rem !important;
   }
-  .boxContacto h5 {
-    font-size: 1.2rem;
+  .boxContacto h4 {
+    font-size: 1.2rem !important;
   }
   .tabla .Programa-1 h5 {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
   .programas {
     text-align: center;
   }
   .programas h4 {
-    font-size: 1.3rem;
+    font-size: 1.3rem !important;
   }
 }
 @media (min-width: 992px) {
