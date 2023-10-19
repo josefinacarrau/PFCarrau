@@ -331,9 +331,7 @@ main .index div div .botonReserva .linkReserva:hover {
   padding-bottom: 5px;
 }
 .programas .textoGris {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 10px;
+  margin: auto;
   color: gray;
   padding: 2px;
 }
